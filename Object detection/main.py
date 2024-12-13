@@ -39,7 +39,7 @@ while True:
 
             # display performance information
             fps = cap.get(cv2.CAP_PROP_FPS)
-            cv2.putText(frame, f'FPS: {fps}', (0, 1000), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+            cv2.putText(frame, f'FPS: {fps}', (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
 
     cv2.imshow('YOLOv11 Detection', frame)# display Videos
